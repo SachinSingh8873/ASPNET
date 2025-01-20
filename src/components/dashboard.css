@@ -1,0 +1,28 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .dashboard-sidebar {
+    background-color: #f8f9fa;
+    width: 250px;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .dashboard-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-sidebar li {
+    margin: 10px 0;
+  }
+  
+  .dashboard-content {
+    margin-left: 250px; /* Adjust to sidebar width */
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
